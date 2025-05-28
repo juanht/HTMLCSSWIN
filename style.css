@@ -1,3 +1,6 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&family=Noto+Sans+TC:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap");
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -91,6 +94,7 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -105,17 +109,21 @@ nav,
 section {
   display: block;
 }
+
 body {
   line-height: 1;
 }
+
 ol,
 ul {
   list-style: none;
 }
+
 blockquote,
 q {
   quotes: none;
 }
+
 blockquote:before,
 blockquote:after,
 q:before,
@@ -123,27 +131,31 @@ q:after {
   content: "";
   content: none;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
 .blue_bc {
   background-color: blue;
   color: #fff !important;
   font-size: 16px;
 }
-@import url("https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&family=Noto+Sans+TC:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap");
+
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
+
 body {
   background-color: #fbfbfb;
   font-family: "Noto Sans TC", sans-serif;
   line-height: 1.5;
   font-weight: 500;
 }
+
 .container {
   margin: 0 auto;
   max-width: 1920px;
@@ -160,7 +172,8 @@ body {
   border-bottom: 1px solid gray;
   font-weight: bold;
   gap: 1.5rem;
-  font-size: 1.25rem; /*20px*/
+  font-size: 1.25rem;
+  /*20px*/
 }
 
 .nav-item {
@@ -183,6 +196,7 @@ body {
   border-bottom: 2px solid gray;
   align-items: center;
 }
+
 .banner-img,
 .banner-right {
   flex: 0 0 50%;
@@ -201,26 +215,26 @@ body {
 }
 
 .banner-right h1 {
-  font-size: 1.25rem; /*20px*/
+  font-size: 1.25rem;
 }
 
 .banner-right-p-time {
   color: #3c3c3c;
-  font-size: 0.875rem; /*14px*/
+  font-size: 0.875rem;
 }
 
 .banner-right-wrap {
   color: blue;
   padding-top: 0.625em;
   padding-bottom: 0.75em;
-  font-size: 1rem; /*16px*/
+  font-size: 1rem;
 }
 
 .banner-badge {
   color: #fff;
   margin-left: 5px;
   background-color: blue;
-  font-size: 0.75rem; /* 12px */
+  font-size: 0.75rem;
   padding: 0.6em 0.625em;
   border-radius: 9999px;
   display: inline-block;
@@ -252,7 +266,7 @@ body {
 .input-with-icon {
   position: relative;
   max-width: 416px;
-  width: 100%; /* 增加 RWD 適應 */
+  width: 100%;
   margin: 80px 0px 40px 10px;
 }
 
@@ -278,39 +292,46 @@ body {
 .input-with-icon input:focus {
   border-color: #007bff;
 }
+
 .wrapul {
   max-width: 1296px;
   display: block;
   margin: 0 auto;
 }
+
 .wrap {
   display: flex;
   width: 100%;
   flex-wrap: wrap;
   gap: 24px;
 }
-.wrap > li {
+
+.wrap>li {
   max-width: 416px;
   /* width: 33%; */
-  width: calc((100%-24px * 2) / 3);
+  width: calc((100% - 24px * 2) / 3);
   margin-bottom: 40px;
 }
+
 .img {
   display: block;
   width: 100%;
   margin-bottom: 16px;
 }
+
 .containe_tag {
   display: inline-block;
   font-size: 24px;
   color: #0027d5;
   padding-right: 8px;
 }
+
 .containe_h2 {
   font-weight: 700;
   font-size: 28px;
   margin-bottom: 8px;
 }
+
 .containe_detail {
   color: #4b4b4b;
   display: -webkit-box;
@@ -320,6 +341,7 @@ body {
   overflow: hidden;
   margin-bottom: 16px;
 }
+
 .containe_btn {
   text-decoration: none;
   color: #4b4b4b;
@@ -328,34 +350,42 @@ body {
   border: 1px solid #000000;
   padding: 8px 16px;
 }
+
 .containe_btn:hover {
   background-color: #000;
   color: #fff;
 }
+
 @media (max-width: 1199px) {
   .input-with-icon {
     margin: 40px auto;
   }
+
   .wrap {
     gap: 24px;
   }
-  .wrap > li {
+
+  .wrap>li {
     width: 48%;
   }
 }
+
 @media (max-width: 767px) {
   .wrap {
     gap: 0px;
   }
-  .wrap > li {
+
+  .wrap>li {
     width: 96%;
   }
 }
+
 .pagul {
   width: 100%;
   display: flex;
   justify-content: center;
 }
+
 .pagination .page:hover,
 .pagination .arrow:hover,
 .pagination .dots:hover {
@@ -363,6 +393,7 @@ body {
   color: #1a5ddc;
   cursor: pointer;
 }
+
 .pagination .page:active,
 .pagination .arrow:active,
 .pagination .dots:active {
@@ -382,9 +413,11 @@ body {
   border-radius: 40px;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
 }
+
 .pagination a {
   text-decoration: none;
 }
+
 .pagination .page,
 .pagination .arrow,
 .pagination .dots {
@@ -396,11 +429,13 @@ body {
   height: 40px;
   text-align: center;
 }
+
 .pagination .page.active {
   color: #1a5ddc;
   font-weight: bold;
   background-color: #e6f0ff;
 }
+
 .pagination .dots {
   cursor: default;
   color: #888;
