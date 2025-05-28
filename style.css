@@ -360,11 +360,9 @@ body {
   .input-with-icon {
     margin: 40px auto;
   }
-
   .wrap {
-    gap: 24px;
+    justify-content: center;
   }
-
   .wrap>li {
     width: 48%;
   }
@@ -374,7 +372,6 @@ body {
   .wrap {
     gap: 0px;
   }
-
   .wrap>li {
     width: 96%;
   }
