@@ -165,7 +165,7 @@ body {
   border-bottom: 1px solid gray;
   font-weight: bold;
   gap: 1.5rem;
-  font-size: 1.25rem;
+  font-size: 28px;
 }
 
 .nav-item {
@@ -195,41 +195,30 @@ body {
   box-sizing: border-box;
 }
 
+.banner-right {
+  max-width: 640px;
+  margin: 0 20px;
+}
+
 .header-banner img {
   display: block;
   width: 100%;
   height: 100%;
 }
 
-.banner-right {
-  font-weight: bold;
-  padding-left: 1rem;
-}
-
-.banner-right h1 {
-  font-size: 1.25rem;
-}
-
-.banner-right-p-time {
-  color: #3c3c3c;
-  font-size: 0.875rem;
-}
-
-.banner-right-wrap {
-  color: blue;
-  padding-top: 0.625em;
-  padding-bottom: 0.75em;
-  font-size: 1rem;
-}
-
 .banner-badge {
-  color: #fff;
-  margin-left: 5px;
   background-color: blue;
-  font-size: 0.75rem;
-  padding: 0.6em 0.625em;
-  border-radius: 60px;
+  color: #fff;
   display: inline-block;
+  border-radius: 40px;
+  padding: 8px 16px;
+  font-size: 16px;
+  margin-left: 8px;
+}
+
+.banner-badge:hover {
+  background-color: #000;
+  color: #fff;
 }
 
 @media (max-width: 768px) {
@@ -244,10 +233,7 @@ body {
   }
 
   .banner-right {
-    padding-left: 0.5rem;
-    text-align: left;
-    padding-bottom: 1.8rem;
-    padding-top: 1.8rem;
+    margin: 48px 10px;
   }
 
   .banner-badge {
