@@ -256,6 +256,12 @@ body {
   margin-left: 80px;
 }
 
+.banner-introduce-content1 {
+  text-align: left;
+  color: #000;
+  margin: 0 auto;
+}
+
 .blog-title {
   font-size: 120px;
   font-weight: 900;
@@ -533,7 +539,8 @@ time {
 .pagination {
   display: flex;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
+  justify-content: space-between;
   width: 328px;
   /* height: 56px; */
   gap: 0px;
@@ -554,7 +561,8 @@ time {
   color: #444;
   border-radius: 0px;
   display: block;
-  width: 40px;
+  max-width: 90px;
+  min-width: 25px;
   height: 40px;
   text-align: center;
 }
@@ -568,4 +576,85 @@ time {
 .pagination .dots {
   cursor: default;
   color: #888;
+}
+
+.blog-article {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px #0001;
+  padding: 40px 48px 32px 48px;
+}
+
+.section-title {
+  color: #1a3fd6;
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin: 32px 0 16px 0;
+}
+
+.blog-article h3 {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin: 20px 0 8px 0;
+}
+
+.article-img {
+  width: 100%;
+  max-height: 260px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin: 24px 0;
+  display: block;
+}
+
+.blog-article ul,
+.blog-article ol {
+  margin: 0 0 0 1.2em;
+  padding: 0;
+}
+
+.blog-article li {
+  margin-bottom: 8px;
+  line-height: 1.7;
+}
+
+.tip,
+.quote {
+  background: #f3f6fd;
+  border-radius: 8px;
+  padding: 12px 18px;
+  margin: 18px 0;
+  color: #222;
+  font-size: 1rem;
+}
+
+.quote {
+  background: #f6f6f6;
+  color: #333;
+  font-style: italic;
+  border-left: 4px solid #4169e1;
+}
+
+@media (max-width: 900px) {
+  .blog-article {
+    padding: 32px 12px 24px 12px;
+  }
+}
+
+@media (max-width: 700px) {
+  .blog-article {
+    padding: 18px 4vw 18px 4vw;
+  }
+
+  .section-title {
+    font-size: 1.05rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .blog-article {
+    padding: 10px 2vw 10px 2vw;
+  }
 }
